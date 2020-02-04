@@ -1,0 +1,47 @@
+{
+  "name": "seafood-visuals",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statisticsnorway/seafood-visuals"
+  },
+  "dependencies": {
+    "@statisticsnorway/ssb-component-library": "^2.0.3",
+    "@testing-library/jest-dom": "^5.1.0",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^8.1.0",
+    "animated-number-react": "^0.0.2",
+    "axios": "^0.19.2",
+    "axios-hooks": "^1.9.0",
+    "chart.js": "^2.9.3",
+    "react": "^16.12.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "react-scripts test --verbose=false --watchAll=true",
+    "coverage": "node ./node_modules/react-scripts/bin/react-scripts.js test --coverage --watchAll=false",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
